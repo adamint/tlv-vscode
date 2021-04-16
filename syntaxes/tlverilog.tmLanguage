@@ -113,7 +113,7 @@ PUBLIC '-//Apple//DTD PLIST 1.0//EN'
 
 			<dict>
 				<key>match</key>
-				<string>(<<|<>|>>-?)[a-zA-Z0-9_]+</string>
+				<string>(&lt;&lt;|&lt;&gt;|&gt;&gt;-?)[a-zA-Z0-9_]+</string>
 				<key>name</key>
 				<string>entity.name.alignment.tlverilog</string>
 			</dict>
